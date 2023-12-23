@@ -402,8 +402,8 @@ function OrionLib:MakeNotification(NotificationConfig)
 				Size = UDim2.new(1, -30, 0, 20),
 				Position = UDim2.new(0, 30, 0, 0),
 				Font = Enum.Font.GothamBold,
-				Name = "Title"
-                                TextColor3 = Color3.fromRGB(20, 20, 20),
+				Name = "Title",
+                                TextColor3 = Color3.fromRGB(20, 20, 20)
 			}),
 			SetProps(MakeElement("Label", NotificationConfig.Content, 14), {
 				Size = UDim2.new(1, 0, 0, 0),
